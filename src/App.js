@@ -33,11 +33,11 @@ useEffect(()=>{
 fetchData()
 },[]);
   return (
-    <div className='min-h-screen flex flex-col'>
+    <div className='min-h-screen flex flex-col bg-bgDark2'>
       <div>
         <Navbar/> 
       </div>
-    <div className="bg-bgDark2">
+    <div className="">
     <div >
       <Filter filterData = {filterData} category={category} setcategory={setcategory}/>
       </div>
